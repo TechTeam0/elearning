@@ -1,0 +1,179 @@
+:root {
+    --primary: #f7953a;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    background: #f37e10;
+    color: #f3f3f3;
+    transition: 250ms;
+}
+
+.btn--primary {
+    background-color: var(--primary);
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.btn--medium {
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.btn--large {
+    padding: 12px 26px;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+
+/* fancy Button */
+/* 
+.btn--fancy-button {
+    display: inline-block;
+    margin: 20px;
+    font-family: "Heebo", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    line-height: 24px;
+    color: #ffffff;
+    position: relative;
+  }
+  .fancy-button.bg-gradient1 {
+    text-shadow: 0px 0px 1px #bf4c28;
+  }
+  .fancy-button.bg-gradient2 {
+    text-shadow: 0px 0px 1px #227270;
+  }
+  .fancy-button.bg-gradient3 {
+    text-shadow: 0 0 1px #546082;
+  }
+  .fancy-button:before {
+    content: "";
+    display: inline-block;
+    height: 40px;
+    position: absolute;
+    bottom: -1px;
+    left: 10px;
+    right: 10px;
+    z-index: -1;
+    border-radius: 2em;
+    filter: blur(14px) brightness(0.9);
+    transform-style: preserve-3d;
+    transition: all 0.3s ease-out;
+  }
+  .fancy-button i {
+    margin-top: -2px;
+    font-size: 1.265em;
+    vertical-align: middle;
+  }
+  .fancy-button span {
+    display: inline-block;
+    padding: 16px 20px;
+    border-radius: 50em;
+    position: relative;
+    z-index: 2;
+    will-change: transform, filter;
+    transform-style: preserve-3d;
+    transition: all 0.3s ease-out;
+  }
+  .fancy-button:focus {
+    color: #ffffff;
+  }
+  .fancy-button:hover {
+    color: #ffffff;
+  }
+  .fancy-button:hover span {
+    filter: brightness(0.9) contrast(1.2);
+    transform: scale(0.96);
+  }
+  .fancy-button:hover:before {
+    bottom: 3px;
+    filter: blur(6px) brightness(0.8);
+  }
+  .fancy-button:active span {
+    filter: brightness(0.75) contrast(1.7);
+  }
+  .fancy-button.pop-onhover span {
+    border-radius: 4px;
+  }
+  .fancy-button.pop-onhover:before {
+    opacity: 0;
+    bottom: 10px;
+  }
+  .fancy-button.pop-onhover:hover:before {
+    bottom: -7px;
+    opacity: 1;
+    filter: blur(16px);
+  }
+  .fancy-button.pop-onhover:hover span {
+    transform: scale(1);
+  }
+  .fancy-button.pop-onhover:hover:active span {
+    filter: brightness(1) contrast(1);
+    transform: scale(1);
+    transition: all 0.2s ease-out;
+  }
+  .fancy-button.pop-onhover:hover:active:before {
+    bottom: 0;
+    filter: blur(5px) brightness(0.85);
+    transition: all 0.2s ease-out;
+  }
+  
+  .pop-onhover.bg-gradient3 span:hover {
+    background: #b9aef0;
+    background: linear-gradient(120deg, #b9aef0 0%, #ada1eb 80%, #ada1eb 100%);
+  }
+  
+  .bg-gradient4:before {
+    bottom: 2px;
+    opacity: 0.6;
+    transition: all 0.3s ease-out;
+  }
+  
+  .bg-gradient4 {
+    transition: all 1s ease;
+  }
+  .bg-gradient4 span {
+    outline: 0px solid transparent;
+  }
+  .bg-gradient4:hover span {
+    background: #fc3d7c;
+    background: linear-gradient(-25deg, #fc3d7c 0%, #f76a34 80%, #f76a34 100%);
+  }
+  .bg-gradient4:focus span, .bg-gradient4:active span {
+    background: #fc3d7c;
+    background: linear-gradient(25deg, #fc3d7c 0%, #f76a34 80%, #f76a34 100%);
+  }
+  .bg-gradient4:focus span {
+    box-shadow: 0 0 9px #00fff8;
+  }
+  .bg-gradient4:active span {
+    filter: brightness(0.85) contrast(1.3);
+  }
+  
+  .bg-gradient4 span {
+    text-transform: capitalize;
+  } */
